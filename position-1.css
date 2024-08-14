@@ -1,0 +1,45 @@
+.a{
+    background-color: lightblue;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    margin-top: 0px;
+}
+.b{
+    background-color: rgb(128, 180, 60);
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+}
+.c{
+    background-color: rgb(89, 14, 181);
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 50px;
+}
+.d{
+    background-color: rgb(98, 1, 87);
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    
+}
+.lor{
+    background-color: rgb(146, 97, 191);
+    font-size: larger;
+    font-family: monospace;
+    text-align: justify;
+    text-decoration: unset;
+    text-transform: uppercase;
+    text-shadow: 4px 5px 6px whitesmoke;
+}
+.ex{
+    margin: 0px 0px 0px 500px;
+}
