@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>todo list</h1>
+    <input type="text" placeholder="Enter your task" id="task">
+    <button onclick="save()">click to add todo</button>
+    <ul id="data"></ul>
+</body>
+<script>
+    const todoList =[]
+    const input=document.getElementById("task");
+    function save(){
+        todoList.push(input.value);
+        alert("task added successfully")
+        input.value=""
+        console.log(todoList) 
+        display()
+    }
+    function display(){
+        const d=document.getElementById("data");
+        let result=''
+        for(let i of todoList){
+            result+=`<li>${i}</li>`
+    d.innerHTML=result
+    }
+}
+</script>
+</html>
